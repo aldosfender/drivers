@@ -1,0 +1,145 @@
+/* Your custom styles */
+.top-nav-collapse {
+  background-color: black !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: black !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: black !important;
+  }
+}
+
+.line{
+    color: whitesmoke !important;
+    font-size: 35px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.strong-words{
+    /*font-weight: bold;*/
+    font-size: 17px;
+}
+
+.a1 {
+    color: whitesmoke; 
+}
+
+.a1:hover {
+    background-color: transparent;
+    color: gold!important;
+}
+
+.activo{
+    color: gold !important;
+}
+
+.font-faceT{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 55px !important;
+}
+
+.font-faceC{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.first-letter {
+    font-size: 200% !important;
+    color: #8A2BE2 !important;
+}
+
+.fondo {
+    background-image: url(../img/architecture-blur-bridge-311621.jpg);
+    /*background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0));*/
+}
+
+.whitesmoke {
+    color: whitesmoke !important;
+}
+
+.backinblack {
+    background-color: black !important;
+}
+
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
+}
+
+.fondo2 {
+    background-image: url(../img/taton-moise-476743-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.fondo3 {
+    background-image: url(../img/taton-moise-476743-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+
+}
+
+input::placeholder {
+    color: whitesmoke !important;
+    opacity: 1;
+}
+
+textarea::placeholder {
+    color: whitesmoke !important;
+    opacity: 1;
+}
+
+::-webkit-input-placeholder {
+    color:    #999;
+}
+:-moz-placeholder {
+    color:    #999;
+}
+::-moz-placeholder {
+    color:    #999;
+}
+:-ms-input-placeholder {
+    color:    #999;
+}
+
+.texa {
+    background-color: transparent;
+    color: whitesmoke;
+    width: 280px;
+    height: 100px; 
+    border-top-width: medium;
+    border-top-color: whitesmoke;
+    border-bottom-width: medium;
+    border-bottom-color: whitesmoke;
+    border-left-width: medium;
+    border-left-color: whitesmoke;
+    border-right-width: medium;
+    border-right-color: whitesmoke;
+}
+
+.cardspeople {
+    background-color: transparent;
+    color: whitesmoke;
+    width: 280px;
+    height: 100px; 
+    border-top-width: medium;
+    border-top-color: whitesmoke;
+    border-bottom-width: medium;
+    border-bottom-color: whitesmoke;
+    border-left-width: medium;
+    border-left-color: whitesmoke;
+    border-right-width: medium;
+    border-right-color: whitesmoke;
+}
